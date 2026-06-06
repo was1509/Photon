@@ -1,2 +1,2 @@
 # Photon
-A multithreaded C++ ray tracing engine with BVH acceleration and CUDA rendering.
+A multithreaded ray tracer written in modern C++ that has rendering, materials and light simulation.
