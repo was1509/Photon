@@ -8,4 +8,7 @@ all:
 
 clean:
 	rm -f main image.ppm
-	
+
+test:
+	g++ -std=c++17 -Wall -Wextra test/unit-test/vec3_ut.cpp -o vec3_ut
+	./vec3_ut
